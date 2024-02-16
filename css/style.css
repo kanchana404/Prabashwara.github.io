@@ -5,18 +5,58 @@ body {
     cursor: default;
 }
 
-.main {
-    padding-top: 30px;
-    width: 600px;
-    margin: auto;
+nav h3 {
+    font-size: 30px;
+    margin-left: 70px;
+    font-family: "IBM Plex Mono", monospace;
+    cursor: default;
 }
 
-.main h3 {
+nav ul {
+    position: absolute;
+    list-style-type: none;
+    left: 60%;
+    top: 30px;
+} 
+
+nav ul li {
+    float: left;
+}
+  
+nav li a {
+    color: #000;
+    font-size: 20px;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-family: "IBM Plex Mono", monospace;
+  }
+
+.main-info {
+    position: absolute;
+    width: 600px;
+    padding-left: 15px;
+    margin-left: 60px;
+    margin-top: 100px;
+}
+
+.main-info h3 {
     font-family: "IBM Plex Mono", monospace;
 }
 
-.main h1 {
+.main-info h1 {
     top: 10%;
     font-family: "IBM Plex Mono", monospace;
     font-size: 50px;
+}
+
+.main-image {
+    position: absolute;
+    left: 60%;
+    margin-top: 50px;
+}
+
+.main-image img {
+    width: 400px;
+    height: auto;
+    border-radius: 50%;
 }
